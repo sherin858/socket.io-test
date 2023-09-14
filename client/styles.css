@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.form-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width : 100%;
+    max-width : 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.25rem;
+}
+#recieved{
+    background-color: white;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 1rem;
+}
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+#send-btn{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.25rem;
+}
